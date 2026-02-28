@@ -1,0 +1,35 @@
+0 verbose cli /Users/denis/.nvm/versions/node/v20.20.0/bin/node /Users/denis/.nvm/versions/node/v20.20.0/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:/Users/denis/.nvm/versions/node/v20.20.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/denis/Documents/Apps Development/DevopPortfolio/.npmrc
+5 silly config load:file:/Users/denis/.npmrc
+6 silly config load:file:/Users/denis/.nvm/versions/node/v20.20.0/etc/npmrc
+7 verbose title npm exec create-next-app@latest nextjs-app
+8 verbose argv "exec" "--" "create-next-app@latest" "nextjs-app"
+9 verbose logfile logs-max:10 dir:/Users/denis/Documents/Apps Development/DevopPortfolio/.npm-cache/_logs/2026-02-27T21_41_15_832Z-
+10 verbose logfile /Users/denis/Documents/Apps Development/DevopPortfolio/.npm-cache/_logs/2026-02-27T21_41_15_832Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET 200 https://registry.npmjs.org/create-next-app 3047ms (cache miss)
+14 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 warn exec The following package was not found and will be installed: create-next-app@16.1.6
+17 silly idealTree buildDeps
+18 silly fetch manifest create-next-app@16.1.6
+19 silly packumentCache full:https://registry.npmjs.org/create-next-app cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/create-next-app 1221ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/create-next-app set size:undefined disposed:false
+22 silly placeDep ROOT create-next-app@16.1.6 OK for:  want: 16.1.6
+23 silly reify moves {}
+24 silly audit bulk request { 'create-next-app': [ '16.1.6' ] }
+25 silly tarball no local data for create-next-app@https://registry.npmjs.org/create-next-app/-/create-next-app-16.1.6.tgz. Extracting by manifest.
+26 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 363ms
+27 silly audit report {}
+28 http fetch GET 200 https://registry.npmjs.org/create-next-app/-/create-next-app-16.1.6.tgz 1582ms (cache miss)
+29 verbose cwd /Users/denis/Documents/Apps Development/DevopPortfolio
+30 verbose os Darwin 20.6.0
+31 verbose node v20.20.0
+32 verbose npm  v10.8.2
+33 verbose exit 1
+34 verbose code 1
