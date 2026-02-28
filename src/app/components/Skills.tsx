@@ -16,10 +16,42 @@ const coreCompetencies = [
 ];
 
 const cloudTools = [
-  { category: 'Cloud Providers', items: ['AWS', 'Azure'] },
-  { category: 'DevOps & Automation', items: ['Docker', 'GitHub Actions', 'PM2', 'Nginx', 'Linux (Ubuntu)'] },
-  { category: 'Databases', items: ['MongoDB', 'MySQL'] },
-  { category: 'Monitoring & Operations', items: ['Systemd', 'Server Monitoring', 'Backup Automation'] }
+  { category: 'Cloud Providers', items: ['AWS', 'Azure', 'GCP', 'DigitalOcean'] },
+  {
+    category: 'DevOps & Automation',
+    items: [
+      'Docker',
+      'Kubernetes',
+      'Terraform',
+      'Ansible',
+      'GitHub Actions',
+      'Jenkins',
+      'GitLab CI',
+      'Argo CD',
+      'Helm',
+      'Vault',
+      'Nginx',
+      'Linux (Ubuntu)'
+    ]
+  },
+  { category: 'Databases', items: ['MongoDB', 'MySQL', 'PostgreSQL'] },
+  {
+    category: 'Monitoring & Operations',
+    items: [
+      'Prometheus',
+      'Grafana',
+      'Loki',
+      'Tempo',
+      'ELK Stack',
+      'Datadog',
+      'New Relic',
+      'PagerDuty',
+      'Sentry',
+      'Systemd',
+      'Server Monitoring',
+      'Backup Automation'
+    ]
+  }
 ];
 
 export function Skills() {
